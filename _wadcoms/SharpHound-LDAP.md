@@ -11,7 +11,7 @@ description: |
   	Output File: output.zip
 
 command: |
-  SharpHound.exe --CollectionMethod All --LdapUsername john --LdapPassword password123 --ZipFileName output.zip
+  SharpHound.exe --CollectionMethods All --LdapUsername john --LdapPassword password123 --ZipFileName output.zip
 items:
   - Shell
   - Username
